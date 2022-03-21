@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/TSP.hpp
+vector
+-
+numeric
+-
+ostream
+-
+tsp_setup.hpp
+../include/tsp_setup.hpp
+
+../include/tsp_setup.hpp
+limits
+-
+vector
+-
+
+D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/komiwojazer/problem-komowojazera-tsp-grupa-24/main.cpp
+TSP.hpp
+D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/komiwojazer/problem-komowojazera-tsp-grupa-24/TSP.hpp
+vector
+-
+iostream
+-
+
