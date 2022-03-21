@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="net_simulation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest-master\;CMake Files\googletest-master\googlemock\;CMake Files\googletest-master\googlemock\cmake\;CMake Files\googletest-master\googletest\;CMake Files\googletest-master\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net_simulation_debug">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/net_simulation_debug.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation_debug"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net_simulation_debug/fast">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/net_simulation_debug.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation_debug/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net_simulation_test">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/net_simulation_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEXERCISE_ID=EXERCISE_ID_FACTORY"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/mocks"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation_test"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="net_simulation_test/fast">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/net_simulation_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEXERCISE_ID=EXERCISE_ID_FACTORY"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/mocks"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 net_simulation_test/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/include"/>
+					<Add directory="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/cmake-build-debug/googletest-master/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/main.cpp">
+			<Option target="net_simulation_debug"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/src/factory.cpp">
+			<Option target="net_simulation_debug"/>
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/src/helpers.cpp">
+			<Option target="net_simulation_debug"/>
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/src/nodes.cpp">
+			<Option target="net_simulation_debug"/>
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/src/package.cpp">
+			<Option target="net_simulation_debug"/>
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/src/reports.cpp">
+			<Option target="net_simulation_debug"/>
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/src/simulation.cpp">
+			<Option target="net_simulation_debug"/>
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/src/storage_types.cpp">
+			<Option target="net_simulation_debug"/>
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/main_gtest.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/test_Factory.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/test_factory_io.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/test_nodes.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/test_package.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/test_reports.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/test_simulate.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/test/test_storage_types.cpp">
+			<Option target="net_simulation_test"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\googletest-master\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest-master\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="D:/AGH/Automatyka/semestr_3/ZPO/Group_projects/NetSim/netsim-grupa-24/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest-master\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
